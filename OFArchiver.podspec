@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OFArchiver'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of OFArchiver.'
+s.name             = 'OFArchiver'
+s.version          = '0.1.3'
+s.summary          = '此项目用于实现对象的归档与解档，归档对象统一保存在 /document/cn_com_company_archive/domain/filename 路径下.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       DESC
+DESC
 
-  s.homepage         = 'https://github.com/idevhan@gmail.com/OFArchiver'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'idevhan@gmail.com' => 'yade.han@mfashion.com' }
-  s.source           = { :git => 'https://github.com/idevhan@gmail.com/OFArchiver.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/idevhan@gmail.com/OFArchiver'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Coooper' => 'idevhan@gmail.com' }
+s.source           = { :git => 'https://github.com/idevhan@gmail.com/OFArchiver.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OFArchiver/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OFArchiver' => ['OFArchiver/Assets/*.png']
-  # }
+s.source_files = 'OFArchiver/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'OFArchiver' => ['OFArchiver/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
 end

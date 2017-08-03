@@ -1,4 +1,6 @@
-use_frameworks!
+source 'git@101.200.84.148:ios-ofashionspecs/com-ofashion-specs.git'
+source 'git@101.200.84.148:ios-ofashionspecs/com-ofashion-specs_mirror.git'
+
 
 target 'OFArchiver_Example' do
   pod 'OFArchiver', :path => '../'
@@ -6,9 +8,5 @@ target 'OFArchiver_Example' do
   target 'OFArchiver_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
   end
 end

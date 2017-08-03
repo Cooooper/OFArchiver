@@ -1,0 +1,6 @@
+framework module OFArchiver {
+  umbrella header "OFArchiver-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - OFArchiver (0.1.0)
+
+DEPENDENCIES:
+  - OFArchiver (from `../`)
+
+EXTERNAL SOURCES:
+  OFArchiver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OFArchiver: 4f8b3f8f3c9f5ca5e4ab1c8bac1e06c6f20455cd
+
+PODFILE CHECKSUM: a8ca83eab9e7c74e43026eba4b4ba4359cb9848e
+
+COCOAPODS: 1.2.0
