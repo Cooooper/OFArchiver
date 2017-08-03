@@ -22,7 +22,7 @@ pod "OFArchiver"
 
 ## Author
 
-idevhan@gmail.com, yade.han@mfashion.com
+idevhan@gmail.com
 
 ## License
 
