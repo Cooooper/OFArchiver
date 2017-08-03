@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint OFArchiver.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
 s.name             = 'OFArchiver'
-s.version          = '0.1.3'
+s.version          = '0.1.4'
 s.summary          = '此项目用于实现对象的归档与解档，归档对象统一保存在 /document/cn_com_company_archive/domain/filename 路径下.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/idevhan@gmail.com/OFArchiver'
-# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.homepage         = 'https://github.com/Cooooper/OFArchiver'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Coooper' => 'idevhan@gmail.com' }
 s.source           = { :git => 'https://github.com/idevhan@gmail.com/OFArchiver.git', :tag => s.version.to_s }
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'OFArchiver/Classes/**/*'
 
-# s.resource_bundles = {
-#   'OFArchiver' => ['OFArchiver/Assets/*.png']
-# }
-
-# s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
 end
